@@ -1,0 +1,25 @@
+** sch_path: /home/youssef/lpro/rply_ex0/rply_ex0_sky130nm/design/RPLY_EX0_SKY130NM/RPLY_EX0.sch
+.subckt RPLY_EX0 VSS IBPS_4U IBNS_20U
+*.ipin VSS
+*.ipin IBPS_4U
+*.iopin IBNS_20U
+XM1 IBPS_4U IBPS_4U VSS VSS sky130_fd_pr__nfet_01v8 L=0.36 W=3.6 nf=2 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2<4> IBNS_20U IBPS_4U VSS VSS sky130_fd_pr__nfet_01v8 L=0.36 W=3.6 nf=2 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2<3> IBNS_20U IBPS_4U VSS VSS sky130_fd_pr__nfet_01v8 L=0.36 W=3.6 nf=2 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2<2> IBNS_20U IBPS_4U VSS VSS sky130_fd_pr__nfet_01v8 L=0.36 W=3.6 nf=2 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2<1> IBNS_20U IBPS_4U VSS VSS sky130_fd_pr__nfet_01v8 L=0.36 W=3.6 nf=2 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2<0> IBNS_20U IBPS_4U VSS VSS sky130_fd_pr__nfet_01v8 L=0.36 W=3.6 nf=2 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+.end
